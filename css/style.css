@@ -2,14 +2,24 @@
   margin: 0px;
   box-sizing: border-box;
 }
-
-.container {
+/* immagini sfondo 1-2-3 */
+.container-1 {
   height: 100vh;
   position: relative;
   background-image: url("../amsterdam.webp");
   background-size: cover;
 }
-
+.container-2 {
+    height: 100vh;
+    position: relative;
+    background-image: url("../new\ york.jpeg");
+    background-size: cover;
+  }.container-3 {
+    height: 100vh;
+    position: relative;
+    background-image: url("../Roma.jpg");
+    background-size: cover;
+  }
 .name {
   font-size: 20px;
   color: white;
